@@ -1,0 +1,8 @@
+#include<stdio.h>
+void main()
+{
+int dis,time;
+printf("enter the distance travelled and time taken:");
+scanf("%d%d",&dis,&time);
+printf("spped of the vehicle is %d",dis/time);
+}
